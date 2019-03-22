@@ -28,36 +28,36 @@ I'll start with a simple task, creating a clickable map of the U.S. National Par
 ### Creating the Map
 The clickable map was created using Folium.
 ```
-    center_lower_48 = [39.833333, -98.583333]
-    map = folium.Map(location = center_lower_48,
-                     zoom_start = 4,
-                     control_scale = True,
-                     tiles = 'Stamen Terrain')
+center_lower_48 = [39.833333, -98.583333]
+map = folium.Map(location = center_lower_48,
+                 zoom_start = 4,
+                 control_scale = True,
+                 tiles = 'Stamen Terrain')
 ```
 
 Location markers for each National Park were added to the map with a clickable popup link to the NPS page for the park. Icon types (Font Awsesome), and colors are assigned in the dataframe, icon_df.
 ```
-    for _, row in map_df[~map_df.lat.isnull()].iterrows():
-        icon_df_row = icon_df[icon_df.park_set == row.park_set]
-        popup_string = ('<a href="'
-                        + 'https://www.nps.gov/' + row.park_code
-                        + '" target="_blank">'
-                        + row.park_name + '</a>').replace("'", r"\'")
-        park_map = add_map_location(park_map, row.lat, row.long,
-                                    icon_df_row.values[0][2],
-                                    icon_df_row.values[0][1],
-                                    popup_string)
+for _, row in map_df[~map_df.lat.isnull()].iterrows():
+    icon_df_row = icon_df[icon_df.park_set == row.park_set]
+    popup_string = ('<a href="'
+                    + 'https://www.nps.gov/' + row.park_code
+                    + '" target="_blank">'
+                    + row.park_name + '</a>').replace("'", r"\'")
+    park_map = add_map_location(park_map, row.lat, row.long,
+                                icon_df_row.values[0][2],
+                                icon_df_row.values[0][1],
+                                popup_string)
 ```
 
 The previous code snippet calls the add_map_location method below.
 ```
-    popup_html = folium.Html(popup, script=True)
-    marker = folium.Marker(location = [lat, long],
-                           icon = folium.Icon(color=color,
-                                              prefix='fa',
-                                              icon=icon),
-                           popup = folium.Popup(popup_html)
-                           ).add_to(map)
+popup_html = folium.Html(popup, script=True)
+marker = folium.Marker(location = [lat, long],
+                       icon = folium.Icon(color=color,
+                                          prefix='fa',
+                                          icon=icon),
+                       popup = folium.Popup(popup_html)
+                      ).add_to(map)
 ```
 
 ### Using the Scripts
