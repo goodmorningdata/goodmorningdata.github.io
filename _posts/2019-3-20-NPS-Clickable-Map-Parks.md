@@ -27,7 +27,7 @@ I'll start with a simple task, creating a clickable map of the U.S. National Par
 
 ### Creating the Map
 The clickable map was created using Folium.
-```
+```python
 center_lower_48 = [39.833333, -98.583333]
 map = folium.Map(location = center_lower_48,
                  zoom_start = 4,
@@ -36,7 +36,7 @@ map = folium.Map(location = center_lower_48,
 ```
 
 Location markers for each National Park were added to the map with a clickable popup link to the NPS page for the park. Icon types (Font Awsesome), and colors are assigned in the dataframe, icon_df.
-```
+```python
 for _, row in map_df[~map_df.lat.isnull()].iterrows():
     icon_df_row = icon_df[icon_df.park_set == row.park_set]
     popup_string = ('<a href="'
@@ -50,7 +50,7 @@ for _, row in map_df[~map_df.lat.isnull()].iterrows():
 ```
 
 The previous code snippet calls the add_map_location method below.
-```
+```python
 popup_html = folium.Html(popup, script=True)
 marker = folium.Marker(location = [lat, long],
                        icon = folium.Icon(color=color,
