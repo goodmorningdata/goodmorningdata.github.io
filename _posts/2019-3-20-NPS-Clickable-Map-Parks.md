@@ -32,6 +32,8 @@ Test code block.
 ~~~
 {: .language-python}
 
+    Test code block (standard markdown).
+
 ~~~
 center_lower_48 = [39.833333, -98.583333]
 map = folium.Map(location = center_lower_48,
