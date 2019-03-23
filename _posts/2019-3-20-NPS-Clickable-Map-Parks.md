@@ -34,6 +34,12 @@ Test code block.
 
     Test code block (standard markdown).
 
+> Test code block (blockquotes)
+> > indent this line.
+> > another indent.
+>
+> back to the first level.
+
 ~~~
 center_lower_48 = [39.833333, -98.583333]
 map = folium.Map(location = center_lower_48,
