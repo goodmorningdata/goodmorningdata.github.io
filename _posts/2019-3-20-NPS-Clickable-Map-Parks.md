@@ -28,6 +28,11 @@ I'll start with a simple task, creating a clickable map of the U.S. National Par
 ### Creating the Map
 The clickable map was created using Folium.
 ~~~
+Test code block.
+~~~
+{: .language-python}
+
+~~~
 center_lower_48 = [39.833333, -98.583333]
 map = folium.Map(location = center_lower_48,
                  zoom_start = 4,
