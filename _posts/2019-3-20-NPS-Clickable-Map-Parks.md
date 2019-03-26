@@ -2,10 +2,6 @@
 layout: post
 title: Clickable map of the National Parks
 date: 20-03-2019
-draft: false
-output:
-  html_document:
-    css: custom.css
 ---
 
 I'll start with a simple task, creating a clickable map of the U.S. National Parks, a long-term interest of mine. The map is created using [Folium](https://python-visualization.github.io/folium/){:target="_blank"}, a Python tool that allows you to visualize a map using the Leaflet.js library.
@@ -39,35 +35,32 @@ map = folium.Map(location = center_lower_48,
 Location markers for each National Park were added to the map with a clickable popup link to the NPS page for the park. Icon types (Font Awsesome), and colors are assigned in the dataframe, icon_df.
 
 ```python
-for _, row in map_df[~map_df.lat.isnull()].iterrows():
-    icon_df_row = icon_df[icon_df.park_set == row.park_set]
+for _, row in df[~df.lat.isnull()].iterrows():
+
+    # Create popup with link to park website.
     popup_string = ('<a href="'
                     + 'https://www.nps.gov/' + row.park_code
                     + '" target="_blank">'
                     + row.park_name + '</a>').replace("'", r"\'")
-    park_map = add_map_location(park_map, row.lat, row.long,
-                                icon_df_row.values[0][2],
-                                icon_df_row.values[0][1],
-                                popup_string)
-```
+    popup_html = folium.Html(popup_string, script=True)
 
-The previous code snippet calls the add_map_location method below.
+    # Assign color and graphic to icon.
+    icon_df_row = icon_df[icon_df.park_set == row.park_set]
+    map_icon = folium.Icon(color=icon_df_row.values[0][1],
+                           prefix='fa',
+                           icon=icon_df_row.values[0][2])
 
-```python
-popup_html = folium.Html(popup, script=True)
-marker = folium.Marker(location = [lat, long],
-                       icon = folium.Icon(color=color,
-                                          prefix='fa',
-                                          icon=icon),
-                       popup = folium.Popup(popup_html)
-                      ).add_to(map)
+    marker = folium.Marker(location = [row.lat, row.long],
+                           icon = map_icon,
+                           popup = folium.Popup(popup_html)
+                          ).add_to(map)
 ```
 
 ### Using the Scripts
 Instructions to run the scripts are found in the readme in the GitHub repository found [here](https://github.com/goodmorningdata/nps){:target="_blank"}.
 
 ### Interactive Map
-[Click here for interactive map.](https://goodmorningdata.github.io/assets/nps_parks_map.html){:target="_blank"}
+[Click here for interactive map.](https://goodmorningdata.github.io/assets/nps_parks_map_location.html){:target="_blank"}
 
 ### Static Map
-![Clickable map image]({{ site.baseurl }}/assets/20190320_nps_map.png){:target="_blank"}
+![Clickable map image]({{ site.baseurl }}/assets/20190320_nps_map_location.png){:target="_blank"}
