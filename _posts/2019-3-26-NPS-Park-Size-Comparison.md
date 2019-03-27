@@ -18,7 +18,7 @@ Ever wondered how large the National Parks are or which park is the biggest? The
 ### Notes
 * The acreage report identifies each park by name only, there is no 4-character park code included. To match each park from this report to its corrresponding park in the API park list, the park names of each were stripped of all designation identifiers and extraneous characters to reveal the essence of the name and then the best match was found using the python method, SequenceMatcher(). In addition, some cases required more brute force replacement to find the match such as replacing 'T ROOSEVELT' with 'Theodore Roosevelt'.
 
-Example:  NPS API park name = 'Lincoln Boyhood National Memorial', and Acreage Report park name = 'LINCOLN BOYHOOD NMEM'. Both were converted to lower case and stripped of their designation for matching, so that 'lincoln boyhood' was matched correctly to 'lincoln boyhood'.
+    Example:  NPS API park name = 'Lincoln Boyhood National Memorial', and Acreage Report park name = 'LINCOLN BOYHOOD NMEM'. Both were converted to lower case and stripped of their designation for matching, so that 'lincoln boyhood' was matched correctly to 'lincoln boyhood'.
 
 ### Data Cleanup
 * Data cleanup tasks described in the [previous post](https://goodmorningdata.github.io/NPS-Clickable-Map-Parks/) in addition to the ones below.
