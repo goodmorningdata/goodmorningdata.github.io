@@ -12,13 +12,18 @@
 /********************************/
 /* Good Morning Data additions. */
 /********************************/
-.table-size {
+table.table-size {
   border-collapse: collapse;
   width: 100%;
-  th {
-    font-weight: bold;
-    text-align: center;
-  }
+}
+
+table.table-size th {
+  font-weight: bold;
+  text-align: center;
+}
+
+table.table-size td {
+  text-align: right;
 }
 
 /**************/
