@@ -9,6 +9,18 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+/********************************/
+/* Good Morning Data additions. */
+/********************************/
+.table-visitors {
+  border-collapse: collapse;
+  width: 100%;
+  th {
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
 /**************/
 /* BASE RULES */
 /**************/
