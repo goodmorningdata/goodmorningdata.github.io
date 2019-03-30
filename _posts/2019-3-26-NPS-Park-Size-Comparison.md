@@ -63,5 +63,4 @@ Instructions to run the scripts are found in the readme in the GitHub repository
 ### Static Map
 ![Clickable map image]({{ site.baseurl }}/assets/20190326_nps_map_area.png){:target="_blank"}
 
-### Park Sizes
 {% include 20190326_nps_parks_sorted_by_size.html %}
