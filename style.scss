@@ -12,19 +12,23 @@
 /********************************/
 /* Good Morning Data additions. */
 /********************************/
-table.table-size {
+table.table-park-list {
   border-collapse: collapse;
   width: 100%;
 }
 
-table.table-size th {
+table.table-park-list thead {
   font-weight: bold;
   text-align: center;
 }
 
-table.table-size td {
+table.table-park-list td {
   padding: 10px;
   text-align: right;
+}
+
+table.table-park-list td:first-child {
+  text-align: left;
 }
 
 /**************/
