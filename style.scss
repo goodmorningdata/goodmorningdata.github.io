@@ -27,7 +27,7 @@ table.table-park-list td {
   text-align: right;
 }
 
-table.table-park-list td:first-child {
+table.table-park-list td:nth-child(2) {
   text-align: left;
 }
 
