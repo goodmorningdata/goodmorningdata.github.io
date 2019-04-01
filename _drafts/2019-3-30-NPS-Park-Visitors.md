@@ -10,12 +10,6 @@ Ever wondered how large the National Parks are or which park is the biggest? The
 * The smallest National Park is Gateway Arch National Park in Missouri at just .3 square miles.
 * The average size of a National Park is 1,596 square miles.
 
-### Interactive Map
-[Click here for interactive map.](https://goodmorningdata.github.io/assets/nps_parks_map_area.html){:target="_blank"}
-
-### Static Map
-![Clickable map image]({{ site.baseurl }}/assets/20190326_nps_map_area.png){:target="_blank"}
-
 ### Data Sources
 * The master list of the National Parks is from the [NPS Data API](https://www.nps.gov/subjects/digital/nps-data-api.htm){:target="_blank"} (see the previous post for more information).
 
@@ -62,5 +56,11 @@ for _, row in df[~df.lat.isnull()].iterrows():
 
 ### Using the Scripts
 Instructions to run the scripts are found in the readme in the GitHub repository found [here](https://github.com/goodmorningdata/nps){:target="_blank"}.
+
+### Interactive Map
+[Click here for interactive map.](https://goodmorningdata.github.io/assets/nps_parks_map_area.html){:target="_blank"}
+
+### Static Map
+![Clickable map image]({{ site.baseurl }}/assets/20190326_nps_map_area.png){:target="_blank"}
 
 {% include 20190326_nps_parks_sorted_by_size.html %}

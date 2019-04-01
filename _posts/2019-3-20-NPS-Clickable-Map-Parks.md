@@ -6,6 +6,12 @@ date: 20-03-2019
 
 I'll start with a simple task, creating a clickable map of the U.S. National Parks, a long-term interest of mine. The map is created using [Folium](https://python-visualization.github.io/folium/){:target="_blank"}, a Python tool that allows you to visualize a map using the Leaflet.js library.
 
+### Interactive Map
+[Click here for interactive map.](https://goodmorningdata.github.io/assets/nps_parks_map_location.html){:target="_blank"}
+
+### Static Map
+![Clickable map image]({{ site.baseurl }}/assets/20190320_nps_map_location.png){:target="_blank"}
+
 ### Data Sources
 * The master list of the National Parks is from the [NPS Data API](https://www.nps.gov/subjects/digital/nps-data-api.htm){:target="_blank"}. To use the API, you need to register and receive an API key. For this map, I used the /parks resource endpoint. There are 61 National Parks, but the park service system includes 419 total sites. This API call actually pulls 496 different sites, as several of these sites are managed by the same entity within the NPS.
 
@@ -58,9 +64,3 @@ for _, row in df[~df.lat.isnull()].iterrows():
 
 ### Using the Scripts
 Instructions to run the scripts are found in the readme in the GitHub repository found [here](https://github.com/goodmorningdata/nps){:target="_blank"}.
-
-### Interactive Map
-[Click here for interactive map.](https://goodmorningdata.github.io/assets/nps_parks_map_location.html){:target="_blank"}
-
-### Static Map
-![Clickable map image]({{ site.baseurl }}/assets/20190320_nps_map_location.png){:target="_blank"}
