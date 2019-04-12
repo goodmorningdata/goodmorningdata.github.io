@@ -15,7 +15,7 @@ The map below marks each park site with a circle corresponding to the number of 
 [Click here for interactive map.](https://goodmorningdata.github.io/assets/nps_parks_map_visits.html){:target="_blank"}
 
 ### Static Map
-![Clickable map image]({{ site.baseurl }}/assets/20190412_nps_map_visits){:target="_blank"}
+![Clickable map image]({{ site.baseurl }}/assets/20190412_nps_map_visits.png){:target="_blank"}
 
 ### Data Sources
 * The master list of the National Parks is from the [NPS Data API](https://www.nps.gov/subjects/digital/nps-data-api.htm){:target="_blank"} (see the [first post](https://goodmorningdata.github.io/NPS-Clickable-Map-Parks/) for more information).
