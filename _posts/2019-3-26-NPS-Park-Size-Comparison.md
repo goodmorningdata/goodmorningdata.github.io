@@ -1,6 +1,6 @@
 ---
 layout: post
-title: National Park Size Comparison
+title: National Park size comparison
 date: 26-03-2019
 ---
 

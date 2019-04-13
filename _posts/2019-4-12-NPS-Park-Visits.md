@@ -10,17 +10,22 @@ The map below marks each park site with a circle corresponding to the number of 
 
 * The National Park that receives the most visits per year by far is Great Smoky Mountains National Park in Tennessee with over 11 million visits in 2018. This is almost twice as many visits as second place, Grand Canyon National Park.
 * The park that received the fewest vists in 2018 is Gates of the Arctic National Park with only 9500 visits. This park has no roads or trails and you can only get there by plane or by hiking in from the nearest highway!
+* There is a full list of parks and their total visits in 2018 at the end of this post.
 
 ### Interactive Map
 [Click here for interactive map.](https://goodmorningdata.github.io/assets/nps_parks_map_visits.html){:target="_blank"}
 
 ### Static Map
-![Clickable map image]({{ site.baseurl }}/assets/20190412_nps_map_visits.png){:target="_blank"}
+![Map image]({{ site.baseurl }}/assets/20190412_nps_map_visits.png){:target="_blank"}
+
+Over 11 million visits to Great Smoky Mountains National Park in 2018 is an incredible number, but that is not the norm for the National Parks. Well over half got less than 1 million visits in 2018, and 75% got less than 2 million visits.
+
+![Histogram image]({{ site.baseurl }}/assets/20190412_park_visits_histogram.png){:target="_blank"}
 
 ### Data Sources
 * The master list of the National Parks is from the [NPS Data API](https://www.nps.gov/subjects/digital/nps-data-api.htm){:target="_blank"} (see the [first post](https://goodmorningdata.github.io/NPS-Clickable-Map-Parks/) for more information).
 
-* Park visit data is available by downloading the [Annual Visitation by Park (1979 - Last Calendar Year)](https://irma.nps.gov/Stats/SSRSReports/National%20Reports/Annual%20Visitation%20By%20Park%20%281979%20-%20Last%20Calendar%20Year%29){:target="_blank"} report from the NPS Stats website. 20 years maximum are available at a time, and the data is available back to 1979.
+* Park visit data is available by downloading the [Annual Summary Report (1904 - Last Calendar Year)](https://irma.nps.gov/Stats/SSRSReports/National%20Reports/Annual%20Summary%20Report%20%281904%20-%20Last%20Calendar%20Year%29){:target="_blank"} report from the NPS Stats website.
 
 ### Notes
 * The visitation reports, like the acreage report, identify each park by name only, there is no 4-character park code included. The same method as described in the last post was used to strip the park names for matching.
@@ -57,6 +62,19 @@ for _, row in df[~df.lat.isnull()].iterrows():
         fill=True,
         fill_color='blue'
     ).add_to(map)
+```
+
+### Creating the Histogram
+The histogram plotting the number of parks in bins of millions of visitors was created using the Python library, Matplotlib, with the following code.
+
+```python
+fig, ax = plt.subplots()
+ax.hist(df['2018']/1e6, bins=np.arange(0,13), alpha=0.5)
+ax.set_xlabel('Millions of visits')
+ax.set_ylabel('Number of parks in millions of visits group')
+ax.set_xticks(np.arange(0,13))
+ax.set_title('Number of park visits in 2018 (' + park_set + ')')
+plt.show()
 ```
 
 ### Using the Scripts
