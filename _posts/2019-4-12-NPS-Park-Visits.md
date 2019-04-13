@@ -9,7 +9,7 @@ How many people visit the National Parks every year? This question can't be exac
 The map below marks each park site with a circle corresponding to the number of visits that it gets each year. Like the previous map, this map is created using [Folium](https://python-visualization.github.io/folium/){:target="_blank"}, using circle markers. Those Alaska parks that had the large cirlces in the area map of the previous post now show up with small circle markers. They don't get anywhere near the number of visits some of the parks in the lower 48 get each year. Hover over a circle to display the park name and the number of visits in 2018.
 
 * The National Park that receives the most visits per year by far is Great Smoky Mountains National Park in Tennessee with over 11 million visits in 2018. This is almost twice as many visits as second place, Grand Canyon National Park.
-* The park that received the fewest vists in 2018 is Gates of the Arctic National Park with only 9500 visits. This park has no roads or trails and you can only get there by plane or by hiking in from the nearest highway!
+* The park that received the fewest vists in 2018 is Gates of the Arctic National Park with only 9500 visits. This park in Alaska has no roads or trails and you can only get there by plane or by hiking in from the nearest highway!
 * There is a full list of parks and their total visits in 2018 at the end of this post.
 
 ### Interactive Map
@@ -33,8 +33,8 @@ Over 11 million visits to Great Smoky Mountains National Park in 2018 is an incr
 
 ### Data Cleanup
 * Data cleanup tasks described in the [first post](https://goodmorningdata.github.io/NPS-Clickable-Map-Parks/) in addition to the ones below.
-* Like the acreage report, the park visitation reports include some park sites that are not on the master list form the API just as the park acreage reports do. These were removed. Parks missing from the API list include: 'Ross Lake NRA', 'Fort Caroline NMEM', 'Lake Chelan NRA', 'John D. Rockefeller, Jr. MEM PKWY'. Again, this deserves more research.
-* Some park names from the visitation reports needed replacement in order for their park code to be found by the lookup function. These include: 'National Capital Parks Central' replaced with 'National Mall and Memorial Parks', 'Longfellow NHS' replaced with "Longfellow House Washington's Headquarters", and 'White House' replaced with "President's Park (White House)".
+* Like the acreage report, the park visitation reports include some park sites that are not on the master list form the API just as the park acreage reports do. These were removed. Parks missing from the API list include: 'Fort Caroline NMEM', and 'John D. Rockefeller, Jr. MEM PKWY'. Again, this deserves more research.
+* Some park names from the visitation reports needed replacement in order for their park code to be found by the lookup function. These include: 'National Capital Parks Central' replaced with 'National Mall and Memorial Parks', 'Longfellow NHS' replaced with "Longfellow House Washington's Headquarters", 'White House' replaced with "President's Park (White House)", and 'Ross Lake NRA' and 'Lake Chelan NRA' replaced with 'North Cascades National Park'.
 * Like the acreage report, some parks were broken out into two lines in the visitation reports. The visits for these were summed into one line in the master dataframe. Example: The visits for 'Glacier Bay National Park', and 'Glacier Bay National Preserve' were summed into 'Glacier Bay National Park and Preserve'.
 
 ### Creating the Map

@@ -29,7 +29,7 @@ Ever wondered how large the National Parks are or which park is the biggest? The
 ### Data Cleanup
 * Data cleanup tasks described in the [previous post](https://goodmorningdata.github.io/NPS-Clickable-Map-Parks/) in addition to the ones below.
 * The park acreage report includes some park sites that are not on the master list from the API. These were removed but deserve further research as to why they aren't on the master list. Perhaps they are a part of a larger park and should be rolled up into it? Parks missing from the API list include: 'R REAGAN BOYHOOD HOME NHS', 'ROSS LAKE NRA', 'FT CAROLINE NMEM', 'WHITE HOUSE', 'WORLD WAR I NMEM', 'LAKE CHELAN NRA', and 'JDROCKEFELLER MEM PKWY'.
->NOTE (04/12/2019): Further research showed that Ross Lake NRA, and Lake Chelan NRA are considered part of North Cascades National Park for purposes of acreage and visitor accounting. The scripts have been changed to reflect this and images updated.
+>NOTE (04/12/2019): Further research showed that Ross Lake NRA, and Lake Chelan NRA are considered part of North Cascades National Park for purposes of acreage and visitor accounting. The scripts have been changed to assign these two areas to the North Cascades park code for roll up and images have been updated.
 * Columns for park size in square meters and square miles were added to the master dataframe for reporting.
 * Some parks were broken out into two lines in the acreage report. The acreage for these were summed into one line in the master dataframe. Example: The acreage for 'Glacier Bay National Park', and 'Glacier Bay National Preserve' were summed into 'Glacier Bay National Park and Preserve'.
 
