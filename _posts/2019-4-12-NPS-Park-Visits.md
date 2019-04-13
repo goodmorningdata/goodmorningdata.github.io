@@ -18,6 +18,7 @@ The map below marks each park site with a circle corresponding to the number of 
 ### Static Map
 ![Map image]({{ site.baseurl }}/assets/20190412_nps_map_visits.png){:target="_blank"}
 
+### Histogram
 Over 11 million visits to Great Smoky Mountains National Park in 2018 is an incredible number, but that is not the norm for the National Parks. Well over half got less than 1 million visits in 2018, and 75% got less than 2 million visits.
 
 ![Histogram image]({{ site.baseurl }}/assets/20190412_park_visits_histogram.png){:target="_blank"}
