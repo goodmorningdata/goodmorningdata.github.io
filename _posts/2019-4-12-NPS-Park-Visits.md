@@ -33,7 +33,7 @@ Over 11 million visits to Great Smoky Mountains National Park in 2018 is an incr
 
 ### Data Cleanup
 * Data cleanup tasks described in the [first post](https://goodmorningdata.github.io/NPS-Clickable-Map-Parks/) in addition to the ones below.
-* Like the acreage report, the park visitation reports include some park sites that are not on the master list form the API just as the park acreage reports do. These were removed. Parks missing from the API list include: 'Fort Caroline NMEM', and 'John D. Rockefeller, Jr. MEM PKWY'. Again, this deserves more research.
+* Like the acreage report, the park visitation reports include some park sites that are not on the master list form the API. These were removed. Parks missing from the API list include: 'Fort Caroline NMEM', and 'John D. Rockefeller, Jr. MEM PKWY'. Again, this deserves more research.
 * Some park names from the visitation reports needed replacement in order for their park code to be found by the lookup function. These include: 'National Capital Parks Central' replaced with 'National Mall and Memorial Parks', 'Longfellow NHS' replaced with "Longfellow House Washington's Headquarters", 'White House' replaced with "President's Park (White House)", and 'Ross Lake NRA' and 'Lake Chelan NRA' replaced with 'North Cascades National Park'.
 * Like the acreage report, some parks were broken out into two lines in the visitation reports. The visits for these were summed into one line in the master dataframe. Example: The visits for 'Glacier Bay National Park', and 'Glacier Bay National Preserve' were summed into 'Glacier Bay National Park and Preserve'.
 
