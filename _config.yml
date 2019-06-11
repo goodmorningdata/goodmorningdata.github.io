@@ -9,7 +9,9 @@ name: Good Morning Data
 description: A blog of data science
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/goodmorningdata/goodmorningdata.github.io/master/images/sun_logo_180x180.png
+avatar:
+https://raw.githubusercontent.com/goodmorningdata/goodmorningdata.github.io/master/images/gmdlogo.svg
+#https://raw.githubusercontent.com/goodmorningdata/goodmorningdata.github.io/master/images/sun_logo_180x180.png
 
 #
 # Flags below are optional
