@@ -10,7 +10,7 @@ The map below, shows the locations of all 61 national parks. The map was created
 
 ![Clickable map image]({{ site.baseurl }}/assets/20190320_nps_map_location.png){:target="_blank"}
 
-Not every state 
+National parks are in XX of the lower 48 states, in Alaska and Hawaii, and in the U.S. territories of the U.S. Virgin Islands and Samoa. California is the winner with 9 national parks.
 
 ### Data Sources
 * The master list of the National Parks is from the [NPS Data API](https://www.nps.gov/subjects/digital/nps-data-api.htm){:target="_blank"}. To use the API, you need to register and receive an API key. For this map, I used the /parks resource endpoint. There are 61 National Parks, but the park service system includes 419 total sites. This API call actually pulls 496 different sites, as several of these sites are managed by the same entity within the NPS.
