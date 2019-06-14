@@ -10,16 +10,16 @@ The very first national park in the United States was Yellowstone National Park,
 
 There are 419 units managed by the National Park Service today but only 61 of those are given the designation, national park, because they contain a variety of the listed resources and the land and/or water area necessary to protect them. The 61 national parks including places like Grand Canyon, Yosemite, Glacier, Redwoods, and Acadia protect the most beautiful and fantastic parts of our amazing country and give us a glimpse of what our country was like before the European settlers arrived.
 
-The map below, shows the locations of all 61 national parks. The map was created using park location data pulled from the NPS API and using the Python library, [Folium](https://python-visualization.github.io/folium/){:target="_blank"}, which uses the Leaflet.js library for map visualizations. A clickable version of the map that gives you the park name and a link to its website is found [here](https://goodmorningdata.github.io/assets/nps_parks_map_location.html){:target="_blank"}.
+The map below, shows the locations of all 61 national parks. The map was created using park location data pulled from the NPS API and using the Python library, [Folium](https://python-visualization.github.io/folium/){:target="_blank"}, which uses the Leaflet.js library for map visualizations. A clickable version of the map that gives you the park name and a link to its website is found [here](https://goodmorningdata.github.io/assets/20190501_nps_parks_map_location_national_parks.html){:target="_blank"}.
 
 ![Map image]({{ site.baseurl }}/assets/20190501_nps_parks_map_location_national_parks.png){:target="_blank"}
 
 National parks are found in 27 of the lower 48 states, in Alaska and Hawaii, and in the U.S. territories of American Samoa, and the U.S. Virgin Islands. California is the winner with 9 national parks and Alaska in a close second with 8.
 
-![Bar chart image]({{ site.baseurl }}/assets/20190501_parks_per_state_national_parks){:target="_blank"}
+![Bar chart image]({{ site.baseurl }}/assets/20190501_parks_per_state_national_parks.png){:target="_blank"}
 
 ### Data Sources
-* The list of 419 official park units broken out by designation comes from the [National Park System](https://www.nps.gov/aboutus/national-park-system.htm){:target="_blank"} page at nps.gov. Park location data, including latitude, longitude, and state(s) is from the National Park Service [API](https://www.nps.gov/subjects/digital/nps-data-api.htm){:target="_blank"}.
+* The list of 419 official park units (as of 5/1/2019) broken out by designation comes from the [National Park System](https://www.nps.gov/aboutus/national-park-system.htm){:target="_blank"} page at nps.gov. Park location data, including latitude, longitude, and state(s) are from the National Park Service [API](https://www.nps.gov/subjects/digital/nps-data-api.htm){:target="_blank"}.
 
 ### Creating the Map
 The clickable map was created using Folium.
@@ -32,7 +32,7 @@ map = folium.Map(location = center_lower_48,
                  tiles = 'Stamen Terrain')
 ```
 
-Location markers for each National Park were added to the map with a clickable popup link to the NPS page for the park. Icon types (Font Awsesome), and colors are assigned in the dataframe, df_icon.
+Location markers for each national park were added to the map with a clickable popup link to the NPS page for the park. Icon types (Font Awesome), and colors are assigned in the dataframe, df_icon.
 
 ```python
 for _, row in (df[~df.lat.isnull()]
