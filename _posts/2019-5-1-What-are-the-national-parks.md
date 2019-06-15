@@ -18,12 +18,12 @@ National parks are found in 27 of the lower 48 states, in Alaska and Hawaii, and
 
 ![Bar chart image]({{ site.baseurl }}/assets/20190501_parks_per_state_national_parks.png){:target="_blank"}
 
-Another way to look at national parks per state is a choropleth map.
+Another way to look at national parks per state is a choropleth map. The winners are in blue.
 
 ![Choropleth map]({{ site.baseurl }}/assets/20190501_nps_state_count_choropleth_national_parks.png){:target="_blank"}
 
 ### Data Sources
-* The list of 419 official park units (as of 5/1/2019) broken out by designation comes from the [National Park System](https://www.nps.gov/aboutus/national-park-system.htm){:target="_blank"} page at nps.gov. Park location data, including latitude, longitude, and state(s) are from the National Park Service [API](https://www.nps.gov/subjects/digital/nps-data-api.htm){:target="_blank"}.
+The list of 419 official park units (as of 5/1/2019) broken out by designation comes from the [National Park System](https://www.nps.gov/aboutus/national-park-system.htm){:target="_blank"} page at nps.gov. Park location data, including latitude, longitude, and state(s) are from the National Park Service [API](https://www.nps.gov/subjects/digital/nps-data-api.htm){:target="_blank"}.
 
 ### Creating the Map
 The clickable map was created using Folium.
