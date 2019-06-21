@@ -11,6 +11,7 @@ Since then, the NPS has grown and now manages 419 official units as of May 2019.
 >National battlefields and national battlefield parks, national military parks, national historical parks, national historic sites, national lakeshores, national memorials, national monuments, national parks, national parkways, national preserves and reserves, national recration areas, national rivers and national wild and scenic rivers and riverways, national scenic trails, national seashores, and one international historic site.
 
 The map below shows the locations of all 419 National Park Service units.<sup>*</sup> The map was created using park location data pulled from the NPS API and using the Python library, [Folium](https://python-visualization.github.io/folium/){:target="_blank"}, which uses the Leaflet.js library for map visualizations. The map is crazy crowded because there are so many sites. For a more readable version, zoom in to the area you are interested in on the clickable version of the map found [here](https://goodmorningdata.github.io/assets/20190508_loc_map_all_parks.html){:target="_blank"}.
+
 <sup>*</sup>The map does not include the following locations because their latitude and longitude was not available via NPS API: Blackstone River Valley National Historical Park, Camp Nelson National Monument, Delaware National Scenic River, John D. Rockefeller National Parkway, Potomac Heritage National Scenic Trail, World War I Memorial.
 
 ![Map image]({{ site.baseurl }}/assets/20190508_nps_parks_map_location_all_parks.png){:target="_blank"}
