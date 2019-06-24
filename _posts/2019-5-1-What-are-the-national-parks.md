@@ -18,11 +18,11 @@ A clickable version of the map that gives you the park name and a link to its we
 
 National parks are found in 27 of the lower 48 states, in Alaska and Hawaii, and in the U.S. territories of American Samoa, and the U.S. Virgin Islands. California is the winner with 9 national parks and Alaska in a close second with 8.
 
-![Bar chart image]({{ site.baseurl }}/assets/20190501_loc_parks_per_state_national_parks.png){:target="_blank"}
+![Bar chart image]({{ site.baseurl }}/assets/20190501_loc_parks_per_state_national_parks.png)
 
 Another way to look at national parks per state is a [choropleth map](https://en.wikipedia.org/wiki/Choropleth_map){:target="_blank"}. The winners are in blue.
 
-![Choropleth map]({{ site.baseurl }}/assets/20190501_choropleth_map_national_parks.png){:target="_blank"}
+![Choropleth map]({{ site.baseurl }}/assets/20190501_choropleth_map_national_parks.png)
 
 ### Data Sources
 The list of 419 official park units (as of 5/1/2019) broken out by designation comes from the [National Park System](https://www.nps.gov/aboutus/national-park-system.htm){:target="_blank"} page at nps.gov. Park location data, including latitude, longitude, and state(s) are from the National Park Service [API](https://www.nps.gov/subjects/digital/nps-data-api.htm){:target="_blank"}.
