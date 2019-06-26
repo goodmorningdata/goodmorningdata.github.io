@@ -10,7 +10,7 @@ The very first national park in the United States was Yellowstone National Park,
 
 Tundra! Mesas! All kinds of good stuff. There are a total of 419 units managed by the National Park Service today, but only 61 of those are given the designation, national park, because they contain a variety of the listed resources and the land and/or water area necessary to protect them. The 61 national parks including places like Grand Canyon, Yosemite, Glacier, Redwoods, and Acadia protect the most beautiful and fantastic parts of our amazing country and give us a glimpse of what our country was like before the European settlers arrived. I won't say that the European settlers ruined everything, I am descended from them after all, but they certainly tried to cut down all the trees.
 
-The map below, shows the locations of all 61 national parks. The map was created using park location data pulled from the NPS API and using the Python library, [Folium](https://python-visualization.github.io/folium/){:target="_blank"}, which uses the Leaflet.js library for map visualizations.
+The map below shows the locations of all 61 national parks. The map was created using park location data pulled from the NPS API and using the Python library, [Folium](https://python-visualization.github.io/folium/){:target="_blank"}, which uses the Leaflet.js library for map visualizations.
 
 A clickable version of the map that gives you the park name and a link to its website is found [here](https://goodmorningdata.github.io/assets/20190501_loc_map_national_parks.html){:target="_blank"}.
 
