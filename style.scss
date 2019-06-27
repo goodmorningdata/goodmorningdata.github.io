@@ -24,11 +24,18 @@ table.table-park-list th {
 
 table.table-park-list td {
   padding:10px;
-  text-align:right;
+  /*text-align:right;*/
+  text-aligh:left;
 }
 
 table.table-park-list td:nth-child(2) {
-  text-align:left;
+  /*text-align:left;*/
+  text-align:right;
+}
+
+table.table-park-list td:nth-child(3) {
+  /*text-align:left;*/
+  text-align:right;
 }
 
 /**************/
