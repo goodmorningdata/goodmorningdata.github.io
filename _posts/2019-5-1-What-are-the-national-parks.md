@@ -5,6 +5,9 @@ date: 01-05-2019
 tags: national-park-service
 ---
 
+>"National parks are the best idea we ever had. Absolutely American, absolutely democratic, they reflect us at our best rather than our worst."
+>Wallace Stegner, 1983
+
 The very first national park in the United States was Yellowstone National Park, established by an act of Congress on March 1, 1872, in the then territories of Wyoming and Montana. The establishment of Yellowstone got the ball rolling, and in the ensuing years, Congress set aside additional public lands for the protection of their resources. Resources protected by the National Park Service are extensive and varied and are listed in their official definition...
 >Areas added to the National Park System for their natural values are expanses or features of land or water of great scenic and scientific quality and are usually designated as national parks, monuments, preserves, seashores, lakeshores, or riverways. Such areas contain one or more distinctive attributes like forest, grassland, tundra, desert, estuary, or river systems; they may contain windows on the past for a view of geological history; they may contain imposing landforms like mountains, mesas, thermal areas, and caverns; and they may be habitats of abundant or rare wildlife and plantlife.
 

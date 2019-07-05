@@ -13,6 +13,8 @@ An interactive version of the map that will tell you the park name and number of
 
 ![Map image]({{ site.baseurl }}/assets/20190522_visit_map_national_parks.png){:target="_blank"}
 
+The national park with the highest numbers of visits in 2018 is Great
+
 ### National Parks in Order of Number of Visits
 {% include 20190522_visit_parks_sorted_by_visits_national_parks.html %}
 
