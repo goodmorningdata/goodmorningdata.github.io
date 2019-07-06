@@ -9,13 +9,13 @@ For the next few posts I will concentrate on the 61 units with the designation "
 
 How big are these national parks? Are they millions of acres? Hundreds? Are they all relatively the same size or are there some outliers? How big does a park have to be to keep the park in it's natural state? That last one is a hard question to answer and has caused some headaches for the National Park Service over the years.
 
-The map below shows the size of all the national parks with a circle relative to their area (not the actual park boundary). The map was created using the Python library, [Folium](https://python-visualization.github.io/folium/){:target="_blank"}, with park location data from the NPS API and park size data from [NPS Stats](https://irma.nps.gov/Stats/reports/national).
+The map below shows the size of all the national parks with a circle relative to their area (not the actual park boundary). The map was created using the Python library, [Folium](https://python-visualization.github.io/folium/){:target="_blank"}, with park location data from the [NPS API](https://www.nps.gov/subjects/digital/nps-data-api.htm) and park size data from [NPS Stats](https://irma.nps.gov/Stats/reports/national).
 
 An interactive version of the map that will tell you the park name and size in acres and square miles when you hover over the circles is found [here]({{ site.baseurl }}/assets/20190515_size_map_national_parks.html){:target="_blank"}.
 
 ![Map image]({{ site.baseurl }}/assets/20190515_size_map_national_parks.png){:target="_blank"}
 
-The largest national park is Wrangell-St. Elias in Alaska at 8.3 million acreas (13,004 square miles) and the smallest is Gateway Arch in Missouri at .3 square miles.<sup>*</sup> Those Alaska parks are huge! 7 of the top 10 largest parks are in Alaska. The largest park in the lower 48 is Death Valley National Park in California (number 5 overall) at 5,270 square miles.
+The largest national park is Wrangell-St. Elias in Alaska at 8.3 million acreas (13,004 square miles) and the smallest is Gateway Arch in Missouri at 193 acres (.3 square miles).<sup>*</sup> Those Alaska parks are huge! 7 of the top 10 largest parks are in Alaska. The largest park in the lower 48 is Death Valley National Park in California, number 5 overall, at 3.4 million acres (5,270 square miles).
 
 <sup>*</sup>Gateway Arch National Park protects a manmade object built in the 1960s, and while a notable historic object, perhaps does not fulfill the mission of the national park designation to protect areas of natural signifigance. [Not everyone agreed](https://www.nationalparkstraveler.org/2018/03/whats-name-gateway-arch-national-park) with the designation of the arch as a national park in 2018.
 
