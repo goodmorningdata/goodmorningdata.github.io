@@ -9,7 +9,7 @@ For the next few posts I will concentrate on the 61 units with the designation "
 
 How big are these national parks? Are they millions of acres? Hundreds? Are they all relatively the same size or are there some outliers? How big does a park have to be to keep the park in it's natural state? That last one is a hard question to answer and has caused some headaches for the National Park Service over the years.
 
-The map below shows the size of all the national parks with a circle relative to their area (not the actual park boundary). The map was created using the Python library, [Folium](https://python-visualization.github.io/folium/){:target="_blank"}, with park location data from the [NPS API](https://www.nps.gov/subjects/digital/nps-data-api.htm) and park size data from [NPS Stats](https://irma.nps.gov/Stats/reports/national).
+The map below shows the size of all the national parks with a circle relative to their area (not the actual park boundary). The map was created using the Python library, [Folium](https://python-visualization.github.io/folium/){:target="_blank"}, with park location data from the [NPS API](https://www.nps.gov/subjects/digital/nps-data-api.htm){:target="_blank"} and park size data from [NPS Stats](https://irma.nps.gov/Stats/reports/national).
 
 An interactive version of the map that will tell you the park name and size in acres and square miles when you hover over the circles is found [here]({{ site.baseurl }}/assets/20190515_size_map_national_parks.html){:target="_blank"}.
 
@@ -27,6 +27,9 @@ We can see that 49 of the national parks are smaller than one million acres. The
 
 ### National Parks in Order of Size
 {% include 20190515_size_parks_sorted_by_size_national_parks.html %}
+
+### Data Sources
+The list of 419 official park units (as of 5/1/2019) broken out by designation comes from the [National Park System](https://www.nps.gov/aboutus/national-park-system.htm){:target="_blank"} page at nps.gov. Park location data, including latitude, longitude, and state(s) are from the National Park Service [API](https://www.nps.gov/subjects/digital/nps-data-api.htm){:target="_blank"}. Park size data is from the report, "Park Acreage Reports (1997 – Last Calendar/Fiscal Year)" found on the [NPS Stats](https://irma.nps.gov/Stats/reports/national){:target="_blank"} website.
 
 ### Using the Scripts
 Instructions to run the scripts are found in the readme in the GitHub repository found [here](https://github.com/goodmorningdata/nps){:target="_blank"}.
