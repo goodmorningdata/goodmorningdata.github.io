@@ -5,7 +5,7 @@ date: 15-5-2019
 tags: national-park-service
 ---
 
-For the next few posts I will concentrate on the 61 units with the designation "national park". These are the crown jewels of the system and certainly get the most press - check out Ken Burn's documentary, "The National Parks: America's Best Idea", watched by over 30 million people in it's first run on PBS.
+For the next few posts I will concentrate on the 61 units with the designation "national park". These are the crown jewels of the system and certainly get the most press - check out Ken Burn's documentary, "The National Parks: America's Best Idea", watched by over 30 million people in it's first run on PBS in 2009.
 
 How big are these national parks? Are they millions of acres? Hundreds? Are they all relatively the same size or are there some outliers? How big does a park have to be to keep the park in it's natural state? That last one is a hard question to answer and has caused some headaches for the National Park Service over the years.
 
