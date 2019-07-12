@@ -12,7 +12,7 @@ The map below marks the location of each national park with a circle of size rel
 An interactive version of the map that will tell you the park name and number of visits in 2018 when you hover over the circles is found [here]({{ site.baseurl }}/assets/20190522_visit_map_national_parks.html){:target="_blank"}.
 
 ![Map image]({{ site.baseurl }}/assets/20190522_visit_map_national_parks.png){:target="_blank"}
-*The map was created using the Python library, [Folium](https://python-visualization.github.io/folium/){:target="_blank"}*
+*<span style="font-size:8pt;">The map was created using the Python library, [Folium](https://python-visualization.github.io/folium/){:target="_blank"}</span>*
 
 The national park with the highest numbers of visits in 2018 is Great Smoky Mountains National Park.
 
