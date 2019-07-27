@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What is the National Park Service?
-date: 08-05-2019
+date: 15-05-2019
 tags: national-park-service
 ---
 
@@ -16,16 +16,16 @@ The map below shows the locations of all 419 National Park Service units.<sup>*<
 
 <sup>*</sup>The map does not include the following locations because their latitude and longitude was not available via NPS API: Blackstone River Valley National Historical Park, Camp Nelson National Monument, Delaware National Scenic River, John D. Rockefeller National Parkway, Potomac Heritage National Scenic Trail, World War I Memorial.
 
-![Map image]({{ site.baseurl }}/assets/20190508_nps_parks_map_location_all_parks.png){:target="_blank"}
+![Map image]({{ site.baseurl }}/assets/20190515_nps_parks_map_location_all_parks.png){:target="_blank"}
 *<span style="font-size:10pt;">The map was created using the Python library, [Folium](https://python-visualization.github.io/folium/){:target="_blank"}</span>*
 
 National Park System parks/units are found in all 50 states, the District of Columbia, and in the U.S. territories of American Samoa, Guam, Puerto Rico, and the U.S. Virgin Islands. Some parks are in more than one state like Yellowstone National Park which is located in Idaho, Montana, and Wyoming. California is the winner again with 28 NPS sites and the District of Columnbia is second with 25.
 
-![Bar chart image]({{ site.baseurl }}/assets/20190508_loc_parks_per_state_all_parks.png){:target="_blank"}
+![Bar chart image]({{ site.baseurl }}/assets/20190515_loc_parks_per_state_all_parks.png){:target="_blank"}
 
 NPS park/unit location can also be understood by looking at a choropleth map of the data. Winners in blue.
 
-![Choropleth map]({{ site.baseurl }}/assets/20190508_choropleth_map_all_parks.png){:target="_blank"}
+![Choropleth map]({{ site.baseurl }}/assets/20190515_choropleth_map_all_parks.png){:target="_blank"}
 
 ### Data Sources
 The list of 419 official park units (as of 5/1/2019) broken out by designation comes from the [National Park System](https://www.nps.gov/aboutus/national-park-system.htm){:target="_blank"} page at nps.gov. Park location data, including latitude, longitude, and state(s) are from the National Park Service [API](https://www.nps.gov/subjects/digital/nps-data-api.htm){:target="_blank"}.

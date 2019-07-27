@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Have park visits been going up over time?
-date: 29-5-2019
+date: 12-6-2019
 tags: national-park-service
 ---
 
@@ -16,15 +16,15 @@ The plot below shows total park visits for the national parks since 1904. A few 
 * The Great Recession of 2007-9 likely caused the sustained decrease in visits during the latter half of the 2000s.
 * In 2012 the number of visits jumped back up to higher than the pre-recession level.
 
-![Line plot image]({{ site.baseurl }}/assets/20190529_visit_total_park_visits_vs_year_national_parks.png)
+![Line plot image]({{ site.baseurl }}/assets/20190626_visit_total_park_visits_vs_year_national_parks.png)
 
 The next two plots compare the total national park visits per year to the U.S. population.
 In the first plot, the data are separated, and we can see the steady increase in the U.S. population up to the current level of ~327 million people (2018) and the less steady, but still increasing total number of national park visits up to the 2018 level of ~86 million.
 The second plot displays the per capita national park visits per year. Per capita means "for each head" in Latin, and park visits per capita is calculated as number of park visits per year divided by U.S. population for that year. This gives us an idea of the growing or decreasing popularity of the national parks. Interestingly, visits per capita increases rapidly between 1904 and 1965 (except for during WWII) and then bounces between .21 and .27 from 1970 to 2018. Perhaps this means that park visits will hover around 25% of the U.S. population with annual variablity due to economic conditions. If true, this would certainly help the NPS plan for visit numbers each year.
 
-![Line plot image]({{ site.baseurl }}/assets/20190529_census_park_visits_vs_us_pop_national_parks.png)
+![Line plot image]({{ site.baseurl }}/assets/20190626_census_park_visits_vs_us_pop_national_parks.png)
 
-![Line plot image]({{ site.baseurl }}/assets/20190529_census_park_visits_per_capita_national_parks.png)
+![Line plot image]({{ site.baseurl }}/assets/20190626_census_park_visits_per_capita_national_parks.png)
 
 ### Data Sources
 The list of 419 official park units (as of 5/1/2019) broken out by designation comes from the [National Park System](https://www.nps.gov/aboutus/national-park-system.htm){:target="_blank"} page at nps.gov. Park visit data from the report, "Annual Summary Report (1904 - Last Calendar Year)" found on the [NPS Stats](https://irma.nps.gov/Stats/reports/national){:target="_blank"} website. 2010-2018 U.S. population data from the [U.S. Census Bureau American Fact Finder](https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t). 1900-2009 U.S. population data from State Intercensal Tables found on [www.census.gov](www.census.gov).

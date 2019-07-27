@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How big are the national parks?
-date: 15-5-2019
+date: 29-5-2019
 tags: national-park-service
 ---
 
@@ -11,9 +11,9 @@ How big are these national parks? Are they millions of acres? Hundreds? Are they
 
 The map below shows the size of all the national parks with a circle relative to their area (not the actual park boundary).
 
-An interactive version of the map that will tell you the park name and size in acres and square miles when you hover over the circles is found [here]({{ site.baseurl }}/assets/20190515_size_map_national_parks.html){:target="_blank"}.
+An interactive version of the map that will tell you the park name and size in acres and square miles when you hover over the circles is found [here]({{ site.baseurl }}/assets/20190529_size_map_national_parks.html){:target="_blank"}.
 
-![Map image]({{ site.baseurl }}/assets/20190515_size_map_national_parks.png){:target="_blank"}
+![Map image]({{ site.baseurl }}/assets/20190529_size_map_national_parks.png){:target="_blank"}
 *<span style="font-size:10pt;">The map was created using the Python library, [Folium](https://python-visualization.github.io/folium/){:target="_blank"}</span>*
 
 The largest national park is Wrangell-St. Elias in Alaska at 8.3 million acreas (13,004 square miles) and the smallest is Gateway Arch in Missouri at 193 acres (.3 square miles).<sup>*</sup> Those Alaska parks are huge! 7 of the top 10 largest parks are in Alaska. The largest park in the lower 48 is Death Valley National Park in California, number 5 overall, at 3.4 million acres (5,270 square miles).
@@ -22,12 +22,12 @@ The largest national park is Wrangell-St. Elias in Alaska at 8.3 million acreas 
 
 The average (mean) national park size is ~856,000 acres (1,338 square miles) and the median is ~221,000 acres (346 square miles). Because the median is so much smaller than the mean, we can tell that the data is skewed to the right, or exhibits positive skew. Let's take a look at this in a histogram of the data.
 
-![Histogram image]({{ site.baseurl }}/assets/20190515_size_histogram_national_parks.png)
+![Histogram image]({{ site.baseurl }}/assets/20190529_size_histogram_national_parks.png)
 
 We can see that 49 of the national parks are smaller than one million acres. The top 12 are greater than one million with two real outliers in Alaska over 7.5 million. Those big parks are very big but most of the national parks lie in a more narrow range.
 
 ### National Parks in Order of Size
-{% include 20190515_size_parks_sorted_by_size_national_parks.html %}
+{% include 20190529_size_parks_sorted_by_size_national_parks.html %}
 
 ### Data Sources
 The list of 419 official park units (as of 5/1/2019) broken out by designation comes from the [National Park System](https://www.nps.gov/aboutus/national-park-system.htm){:target="_blank"} page at nps.gov. Park location data, including latitude, longitude, and state(s) are from the National Park Service [API](https://www.nps.gov/subjects/digital/nps-data-api.htm){:target="_blank"}. Park size data is from the report, "Park Acreage Reports (1997 – Last Calendar/Fiscal Year)" found on the [NPS Stats](https://irma.nps.gov/Stats/reports/national){:target="_blank"} website.
