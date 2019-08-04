@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Have park visits been going up over time?
-date: 26-6-2019
+date: 26-06-2019
 tags: national-park-service
 ---
 
