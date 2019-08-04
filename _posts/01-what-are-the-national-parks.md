@@ -12,18 +12,18 @@ The very first national park in the United States was Yellowstone National Park,
 
 Tundra! Mesas! All kinds of good stuff. There are a total of 419 units managed by the National Park Service today, but only 61 of those are given the designation, national park, because they contain a variety of the listed resources and the land and/or water area necessary to protect them. The 61 national parks including places like Grand Canyon, Yosemite, Glacier, Redwoods, and Acadia protect the most beautiful and fantastic parts of our amazing country and give us a glimpse of what our country was like before the European settlers arrived. I won't say that the European settlers ruined everything, I am descended from them after all, but they certainly tried to cut down all the trees.
 
-The map below shows the locations of all 61 national parks. A clickable version of the map that gives you the park name and a link to its website is found [here](https://goodmorningdata.github.io/assets/20190501_loc_map_national_parks.html){:target="_blank"}.
+The map below shows the locations of all 61 national parks. A clickable version of the map that gives you the park name and a link to its website is found [here](https://goodmorningdata.github.io/assets/01_loc_map_national_parks.html){:target="_blank"}.
 
-![Map image]({{ site.baseurl }}/assets/20190501_loc_map_national_parks.png){:target="_blank"}
+![Map image]({{ site.baseurl }}/assets/01_loc_map_national_parks.png){:target="_blank"}
 *<span style="font-size:10pt;">The map was created using the Python library, [Folium](https://python-visualization.github.io/folium/){:target="_blank"}</span>*
 
 National parks are found in 27 of the lower 48 states, in Alaska and Hawaii, and in the U.S. territories of American Samoa, and the U.S. Virgin Islands. California is the winner with 9 national parks and Alaska in a close second with 8.
 
-![Bar chart image]({{ site.baseurl }}/assets/20190501_loc_parks_per_state_national_parks.png)
+![Bar chart image]({{ site.baseurl }}/assets/01_loc_parks_per_state_national_parks.png)
 
 Another way to look at national parks per state is a [choropleth map](https://en.wikipedia.org/wiki/Choropleth_map){:target="_blank"}. The winners are in blue.
 
-![Choropleth map]({{ site.baseurl }}/assets/20190501_choropleth_map_national_parks.png)
+![Choropleth map]({{ site.baseurl }}/assets/01_choropleth_map_national_parks.png)
 
 ### Data Sources
 The list of 419 official park units (as of 5/1/2019) broken out by designation comes from the [National Park System](https://www.nps.gov/aboutus/national-park-system.htm){:target="_blank"} page at nps.gov. Park location data, including latitude, longitude, and state(s) are from the National Park Service [API](https://www.nps.gov/subjects/digital/nps-data-api.htm){:target="_blank"}.
