@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How big are the national parks?
-date: 29-5-2019
+date: 29-05-2019
 tags: national-park-service
 ---
 
@@ -18,7 +18,7 @@ An interactive version of the map that will tell you the park name and size in a
 
 The largest national park is Wrangell-St. Elias in Alaska at 8.3 million acreas (13,004 square miles) and the smallest is Gateway Arch in Missouri at 193 acres (.3 square miles).<sup>*</sup> Those Alaska parks are huge! 7 of the top 10 largest parks are in Alaska. The largest park in the lower 48 is Death Valley National Park in California, number 5 overall, at 3.4 million acres (5,270 square miles).
 
-<sup>*</sup>Gateway Arch National Park protects a manmade object built in the 1960s, and while a notable historic object, perhaps does not fulfill the mission of the national park designation to protect areas of natural signifigance. [Not everyone agreed](https://www.nationalparkstraveler.org/2018/03/whats-name-gateway-arch-national-park) with the designation of the arch as a national park in 2018.
+<sup>*</sup>Gateway Arch National Park protects a manmade object built in the 1960s, and while a notable historic object, perhaps does not fulfill the mission of the national park designation to protect areas of natural signifigance. [Not everyone agreed](https://www.nationalparkstraveler.org/2018/03/whats-name-gateway-arch-national-park){:target="_blank"} with the designation of the arch as a national park in 2018.
 
 The average (mean) national park size is ~856,000 acres (1,338 square miles) and the median is ~221,000 acres (346 square miles). Because the median is so much smaller than the mean, we can tell that the data is skewed to the right, or exhibits positive skew. Let's take a look at this in a histogram of the data.
 

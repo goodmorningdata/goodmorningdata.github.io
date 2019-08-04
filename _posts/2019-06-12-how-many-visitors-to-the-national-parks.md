@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How many people visit the national parks?
-date: 12-6-2019
+date: 12-06-2019
 tags: national-park-service
 ---
 
@@ -9,7 +9,7 @@ With the data that the NPS makes available, we can't determine how many unique v
 
 The map below marks the location of each national park with a circle of size relative to the number of visits to that park in 2018.
 
-An interactive version of the map that will tell you the park name and number of visits in 2018 when you hover over the circles is found [here]({{ site.baseurl }}/assets/20190612_visit_map_national_parks.html){:target="_blank"}.
+An interactive version of the map that will tell you the park name and number of visits in 2018 when you hover over the circles is found [here]({{ site.baseurl }}/assets/04_visit_map_national_parks.html){:target="_blank"}.
 
 ![Map image]({{ site.baseurl }}/assets/04_visit_map_national_parks.png){:target="_blank"}
 *<span style="font-size:10pt;">The map was created using the Python library, [Folium](https://python-visualization.github.io/folium/){:target="_blank"}</span>*
