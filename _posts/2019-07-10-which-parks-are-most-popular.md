@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Which parks are most popular?
+title: Which parks are the most popular?
 date: 10-7-2019
 tags: national-park-service
 ---
-Which parks are the most popular? The post, [How many people visit the national parks?](https://goodmorningdata.github.io/how-many-visitors-to-the-national-parks/) lists the national parks in order of number of visitors in 2018, but let's also take a look at this data per capita and over time. Are certain parks getting more popular and others declining? After visiting 30 national parks over this past year, anecdotally I could name the most popular based on the crowds that we experienced, but better to let the numbers do the talking.
+Which parks are the most popular? The post, [How many people visit the national parks?](https://goodmorningdata.github.io/how-many-visitors-to-the-national-parks/){:target="_blank"} lists the national parks in order of number of visitors in 2018, but let's also take a look at this data per capita and over time. Are certain parks getting more popular and others declining? After visiting 30 national parks over this past year, anecdotally I could name the most popular based on the crowds that we experienced, but better to let the numbers do the talking.
 
-Visits to the top 10 most visited parks in 2018 since 1904 are shown in the plot below. They all show the same general upward trend that the national parks do as a whole with Great Smoky Mountains NP way in the lead. An exception to the trend is Acadia NP which shows a spike in visitors prior to 1990 that is due to a change in counting methodology which provides more accurate estimates for 1990 and forward ([source](https://bangordailynews.com/2016/02/02/news/hancock/acadia-national-park-visitor-level-hit-20-year-high-in-2015/)). Grand Teton NP shows a pronounced dip in the 1980s which I have not yet been able to find a reason for.
+Visits to the top 10 most visited parks in 2018 since 1904 are shown in the plot below. They all show the same general upward trend that the national parks do as a whole with Great Smoky Mountains NP way in the lead. An exception to the trend is Acadia NP which shows a spike in visitors prior to 1990 that is due to a change in counting methodology which provides more accurate estimates for 1990 forward ([source](https://bangordailynews.com/2016/02/02/news/hancock/acadia-national-park-visitor-level-hit-20-year-high-in-2015/){:target="_blank"}). Grand Teton NP shows a pronounced dip in the 1980s which I have not yet been able to find a reason for.
 
 ![Line plot image]({{ site.baseurl }}/assets/06_visit_park_visits_vs_year_highest_10_national_parks.png)
 
 The plot below is a park popularity quadrant. It plots mean park visits per capita since 1967<sup>*</sup> vs. change rate of visits per capita over that time. The horizontal red line divides parks with positive change rates (number of visits per capita is going up) and negative change rates. The vertical red line splits the parks in half by mean visits per capita. Parks to the left are in the bottom half of visits and parks to the right are in the top half.
 
-<sup>*</sup> 1967 is the first year that total nation park visits per capita declined since the end of WWII. I am using 1967 as the starting year of stablized park visitation numbers.
+<sup>*</sup>*<span style="font-size:10pt;">1967 is the first year in which total national park visits per capita declined since the end of WWII. I am using 1967 as the starting year of stablized park visitation numbers.</span>*
 
 ![Quadrant image]({{ site.baseurl }}/assets/06_census_park_popularity_quadrant_national_parks.png)
 *<span style="font-size:10pt;">Because there are 61 parks on the plot, and many are clustered together, it is difficult to read the park codes. Quadrant contents are listed at the bottom of this post.</span>*
