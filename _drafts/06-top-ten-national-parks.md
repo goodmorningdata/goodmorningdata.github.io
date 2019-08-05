@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  The "top ten" national parks.
-date: 10-6-2019
+title:  Park popularity
+date: 10-7-2019
 tags: national-park-service
 ---
 Let's take a look at the top ten parks in terms of visits. The parks are in order of total visits in 2018 are listed in the table below.
