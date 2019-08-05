@@ -12,10 +12,10 @@ Visits to the top 10 most visited parks in 2018 since 1904 are shown in the plot
 
 The plot below is a park popularity quadrant. It plots mean park visits per capita since 1967<sup>*</sup> vs. change rate of visits per capita over that time. The horizontal red line divides parks with positive change rates (number of visits per capita is going up) and negative change rates. The vertical red line splits the parks in half by mean visits per capita. Parks to the left are in the bottom half of visits and parks to the right are in the top half.
 
-<sup>*</sup>*<span style="font-size:10pt;">1967 is the first year in which total national park visits per capita declined since the end of WWII. I am using 1967 as the starting year of stablized park visitation numbers.</span>*
+<sup>*</sup><span style="font-size:10pt;">1967 is the first year in which total national park visits per capita declined since the end of WWII. I am using 1967 as the starting year of stablized park visitation numbers.</span>
 
 ![Quadrant image]({{ site.baseurl }}/assets/06_census_park_popularity_quadrant_national_parks.png)
-*<span style="font-size:10pt;">Because there are 61 parks on the plot, and many are clustered together, it is difficult to read the park codes. Quadrant contents are listed at the bottom of this post.</span>*
+<span style="font-size:10pt;">Because there are 61 parks on the plot, and many are clustered together, it is difficult to read the park codes. Quadrant contents are listed at the bottom of this post.</span>
 
 * It is no surprise that of the 8 parks in Quadrant I, 5 are in the list of top 10 most visited, but where are the remaining 5 top tenners? They can all be found in Quadrant IV, still very popular, but their visits per capita rate is actually declining.
 * The additional 3 parks in Quadrant I, popular and getting more popular, are Indiana Dunes NP, Cuyahoga Valley NP, and Joshua Tree NP. These parks are all near major urban areas which may contribute to their increasing popularity - this is worth looking into more in a future blog post.
