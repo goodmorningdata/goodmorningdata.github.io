@@ -7,17 +7,17 @@ tags: national-park-service
 
 >"National parks are the best idea we ever had. Absolutely American, absolutely democratic, they reflect us at our best rather than our worst." -- Wallace Stegner, 1983
 
-The very first national park in the United States was Yellowstone National Park, established by an act of Congress on March 1, 1872, in the then territories of Wyoming and Montana. The establishment of Yellowstone got the ball rolling, and in the ensuing years, Congress set aside additional public lands for the protection of their resources. Resources protected by the National Park Service are extensive and varied and are listed in their official definition...
+The very first national park in the United States was Yellowstone National Park, established by an act of Congress on March 1, 1872, in the then-territories of Wyoming and Montana. The establishment of Yellowstone got the ball rolling, and in the ensuing years Congress set aside additional public lands for the protection of their resources. Resources protected by the National Park Service are extensive and varied and are listed in their official definition...
 >Areas added to the National Park System for their natural values are expanses or features of land or water of great scenic and scientific quality and are usually designated as national parks, monuments, preserves, seashores, lakeshores, or riverways. Such areas contain one or more distinctive attributes like forest, grassland, tundra, desert, estuary, or river systems; they may contain windows on the past for a view of geological history; they may contain imposing landforms like mountains, mesas, thermal areas, and caverns; and they may be habitats of abundant or rare wildlife and plantlife.
 
-Tundra! Mesas! All kinds of good stuff. There are a total of 419 units managed by the National Park Service today, but only 61 of those are given the designation, national park, because they contain a variety of the listed resources and the land and/or water area necessary to protect them. The 61 national parks including places like Grand Canyon, Yosemite, Glacier, Redwoods, and Acadia protect the most beautiful and fantastic parts of our amazing country and give us a glimpse of what our country was like before the European settlers arrived. I won't say that the European settlers ruined everything, I am descended from them after all, but they certainly tried to cut down all the trees.
+Tundra! Mesas! All kinds of good stuff. There are (as of 5/1/2019) a total of 419 units managed by the National Park Service, but only 61 of those are given the designation national park, because those sites contain a variety of the listed resources and the land and/or water area necessary to protect them. The 61 national parks, which include places like Grand Canyon, Yosemite, Glacier, Redwoods, and Acadia, protect the most beautiful and fantastic parts of our amazing country and give us a glimpse of what our country was like before the European settlers arrived. I won't say that the settlers changed everything, but they did do a number on the environment as they pushed west.
 
-The map below shows the locations of all 61 national parks. A clickable version of the map that gives you the park name and a link to its website is found [here](https://goodmorningdata.github.io/assets/01_loc_map_national_parks.html){:target="_blank"}.
+The map below shows the locations of all 61 national parks. A clickable version of the map that gives the park name and a link to its website is found [here](https://goodmorningdata.github.io/assets/01_loc_map_national_parks.html){:target="_blank"}.
 
 ![Map image]({{ site.baseurl }}/assets/01_loc_map_national_parks.png){:target="_blank"}
 *<span style="font-size:10pt;">The map was created using the Python library, [Folium](https://python-visualization.github.io/folium/){:target="_blank"}</span>*
 
-National parks are found in 27 of the lower 48 states, in Alaska and Hawaii, and in the U.S. territories of American Samoa, and the U.S. Virgin Islands. California is the winner with 9 national parks and Alaska in a close second with 8.
+National parks are found in 27 of the lower 48 states, in Alaska and Hawaii, and in the U.S. territories of American Samoa and the U.S. Virgin Islands. California is the winner with 9 national parks, and Alaska is a close second with 8.
 
 ![Bar chart image]({{ site.baseurl }}/assets/01_loc_parks_per_state_national_parks.png)
 
@@ -26,7 +26,7 @@ Another way to look at national parks per state is a [choropleth map](https://en
 ![Choropleth map]({{ site.baseurl }}/assets/01_choropleth_map_national_parks.png)
 
 ### Data Sources
-The list of 419 official park units (as of 5/1/2019) broken out by designation comes from the [National Park System](https://www.nps.gov/aboutus/national-park-system.htm){:target="_blank"} page at nps.gov. Park location data, including latitude, longitude, and state(s) are from the National Park Service [API](https://www.nps.gov/subjects/digital/nps-data-api.htm){:target="_blank"}.
+The list of 419 official park units broken out by designation comes from the [National Park System](https://www.nps.gov/aboutus/national-park-system.htm){:target="_blank"} page at nps.gov. Park location data, including latitude, longitude, and state(s) are from the National Park Service [API](https://www.nps.gov/subjects/digital/nps-data-api.htm){:target="_blank"}.
 
 ### Creating the Map
 The clickable map was created using Folium.

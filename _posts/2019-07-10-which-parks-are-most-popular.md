@@ -4,9 +4,9 @@ title: Which parks are the most popular?
 date: 10-7-2019
 tags: national-park-service
 ---
-Which parks are the most popular? The post, [How many people visit the national parks?](https://goodmorningdata.github.io/how-many-visitors-to-the-national-parks/){:target="_blank"} lists the national parks in order of number of visitors in 2018, but let's also take a look at this data per capita and over time. Are certain parks getting more popular and others declining? After visiting 30 national parks over this past year, anecdotally I could name the most popular based on the crowds that we experienced, but better to let the numbers do the talking.
+Which parks are the most popular? The post, [How many people visit the national parks?](https://goodmorningdata.github.io/how-many-visitors-to-the-national-parks/){:target="_blank"} lists the national parks in order of number of visits in 2018, but let's also take a look at this data per capita and over time. Are certain parks getting more popular and others declining? After visiting 30 national parks over this past year, anecdotally I could name the most popular based on the crowds that we experienced, but better to let the numbers do the talking.
 
-Visits to the top 10 most visited parks in 2018 since 1904 are shown in the plot below. They all show the same general upward trend that the national parks do as a whole with Great Smoky Mountains NP way in the lead. An exception to the trend is Acadia NP which shows a spike in visitors prior to 1990 that is due to a change in counting methodology which provides more accurate estimates for 1990 forward ([source](https://bangordailynews.com/2016/02/02/news/hancock/acadia-national-park-visitor-level-hit-20-year-high-in-2015/){:target="_blank"}). Grand Teton NP shows a pronounced dip in the 1980s which I have not yet been able to find a reason for.
+Visits to the top 10 most visited parks, from 1904 to 2018, are shown in the plot below. They all show the same general upward trend that the national parks do as a whole, with Great Smoky Mountains NP way in the lead. An exception to the trend is Acadia NP, which shows a spike in visits prior to 1990 that is the result of a change in counting methodology that provides more accurate estimates from 1990 forward ([source](https://bangordailynews.com/2016/02/02/news/hancock/acadia-national-park-visitor-level-hit-20-year-high-in-2015/){:target="_blank"}). Grand Teton NP shows a pronounced dip in the 1980s, which I have not yet been able to find a reason for.
 
 ![Line plot image]({{ site.baseurl }}/assets/06_visit_park_visits_vs_year_highest_10_national_parks.png)
 
@@ -17,9 +17,9 @@ The plot below is a park popularity quadrant. It plots mean park visits per capi
 ![Quadrant image]({{ site.baseurl }}/assets/06_census_park_popularity_quadrant_national_parks.png)
 <span style="font-size:10pt;">Because there are 61 parks on the plot, and many are clustered together, it is difficult to read the park codes. Quadrant contents are listed at the bottom of this post.</span>
 
-* It is no surprise that of the 8 parks in Quadrant I, 5 are in the list of top 10 most visited, but where are the remaining 5 top tenners? They can all be found in Quadrant IV, still very popular, but their visits per capita rate is actually declining.
-* The additional 3 parks in Quadrant I, popular and getting more popular, are Indiana Dunes NP, Cuyahoga Valley NP, and Joshua Tree NP. These parks are all near major urban areas which may contribute to their increasing popularity - this is worth looking into more in a future blog post.
-* Quadrant II contains the "up and comers". These parks are less popular and presumably less crowded, but their popularity is on the increase.
+* It is no surprise that of the 8 parks in Quadrant I, 5 are in the list of top 10 most visited. But where are the remaining 5 top tenners? They can all be found in Quadrant IV, still very popular, but their visits per capita rate is actually declining.
+* The additional 3 parks in Quadrant I, popular and getting more popular, are Indiana Dunes NP, Cuyahoga Valley NP, and Joshua Tree NP. These parks are all near major urban areas, which may contribute to their increasing popularity - this is worth looking into more in a future blog post.
+* Quadrant II contains the "up and comers." These parks are less popular and presumably less crowded, but their popularity is on the increase.
 * Quadrant IV contains the less popular parks whose popularity is on the decline. These are the ones to visit to avoid the crowds.
 * Interestingly, all 8 of the national parks in Alaska are in Quadrant II. They don't get a lot of visitors, but their popularity is on the rise.
 

@@ -5,22 +5,22 @@ date: 12-06-2019
 tags: national-park-service
 ---
 
-With the data that the NPS makes available, we can't determine how many unique visitors that the parks get each year, but they do track the number of visits to each park. The number of visits and how that number changes over time can give us an idea of how crowded a park is and the human impact that the park needs to prepare for.
+Using the data made available by the NPS, we can't determine how many unique visitors the parks get each year, but the NPS does track the number of visits to each park. The number of visits and how that number changes over time can give us an idea of how crowded a park is and the human impact that a park needs to prepare for.
 
 The map below marks the location of each national park with a circle of size relative to the number of visits to that park in 2018.
 
-An interactive version of the map that will tell you the park name and number of visits in 2018 when you hover over the circles is found [here]({{ site.baseurl }}/assets/04_visit_map_national_parks.html){:target="_blank"}.
+An interactive version of the map that shows the park name and the number of visits in 2018 when you hover over a circle is found [here]({{ site.baseurl }}/assets/04_visit_map_national_parks.html){:target="_blank"}.
 
 ![Map image]({{ site.baseurl }}/assets/04_visit_map_national_parks.png){:target="_blank"}
 *<span style="font-size:10pt;">The map was created using the Python library, [Folium](https://python-visualization.github.io/folium/){:target="_blank"}</span>*
 
-The national park with the highest numbers of visits in 2018 by far is Great Smoky Mountains National Park, eclipsing the second place park, Grand Canyon, with almost twice as many visitors. The national park with the fewest number of visits is Gates of the Arctic in Alaska, with 9,591. This isn't surprising since Gates of the Arctic doesn't have any roads so to visit you have to fly in or hike in from the nearest highway.
+The national park with by far the highest numbers of visits in 2018 is Great Smoky Mountains National Park, eclipsing the second-place park, Grand Canyon, with almost twice as many visitors. The national park with the fewest number of visits is Gates of the Arctic in Alaska, with 9,591. This isn't surprising since Gates of the Arctic doesn't have any roads, so to visit you have to fly in or hike in from the nearest highway.
 
-The mean number of visits in 2018 ~1.4 million while the median is ~656,000. This shows the data is skewed to the right, just like the park size data. A few of the national parks are receiving massive numbers of visitors, but the majority receive a much smaller amount.
+The mean number of visits in 2018 is ~1.4 million while the median is ~656,000. This shows the data is skewed to the right, just like the park size data. A few of the national parks are receiving massive numbers of visitors, but the majority receive a much smaller number.
 
 ![Histogram image]({{ site.baseurl }}/assets/04_visit_histogram_national_parks.png)
 
-You can see Great Smoky Mountains NP out there on the right of the histogram, and some of the other biggies, but over half of the national parks receive less than one million visits per year.
+You can see Great Smoky Mountains NP out there on the right of the histogram, and some of the other biggies, but over half of the national parks receive fewer than one million visits per year.
 
 ### National Parks in Order of Number of Visits
 {% include 04_visit_parks_sorted_by_visits_national_parks.html %}
