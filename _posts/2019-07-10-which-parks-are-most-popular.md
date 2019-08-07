@@ -12,7 +12,7 @@ Visits to the top 10 most visited parks, from 1904 to 2018, are shown in the plo
 
 The plot below is a park popularity quadrant. It plots mean park visits per capita since 1967<sup>*</sup> vs. change rate of visits per capita over that time. The horizontal red line divides parks with positive change rates (number of visits per capita is going up) and negative change rates. The vertical red line splits the parks in half by mean visits per capita. Parks to the left are in the bottom half of visits and parks to the right are in the top half.
 
->It is important to note that a park may have a negative change rate in visits per capita even if their total park visits is still increasing.
+><span style="font-size:12pt;">It is important to note that a park may have a negative change rate in visits per capita even if their total park visits is still increasing.</span>
 
 <sup>*</sup><span style="font-size:10pt;">1967 is the first year in which total national park visits per capita declined since the end of WWII. I am using 1967 as the starting year of stablized park visitation numbers.</span>
 
