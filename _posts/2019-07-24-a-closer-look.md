@@ -9,7 +9,7 @@ In the last post, [Which parks are the most popular?](http://goodmorningdata.com
 
 ### Quadrant I - Highest visits and increasing
 The parks in Quadrant I have the highest mean visits per capita since 1967<sup>*</sup> and an increasing visit change rate since that year. The plot below shows the data for four of these parks.
-<sup>*</sup><span style="font-size:10pt;">1967 is the first year in which total national park visits per capita declined since the end of WWII. I am using 1967 as the starting year of stablized park visitation numbers.</span>
+<br/><sup>*</sup><span style="font-size:10pt;">1967 is the first year in which total national park visits per capita declined since the end of WWII. I am using 1967 as the starting year of stablized park visitation numbers.</span>
 
 ![Plot image]({{ site.baseurl }}/assets/07_census_park_visits_per_capita_vs_year_4_parks_q1.png)
 
