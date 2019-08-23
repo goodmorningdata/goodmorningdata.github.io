@@ -35,3 +35,11 @@ The parks in Quadrant IV have mean per capita vistis in the top half with a decl
 ![Plot image]({{ site.baseurl }}/assets/07_census_park_visits_per_capita_vs_year_4_parks_q4.png)
 
 Acadia National Park discovered an error in their visitor counting procedures leading to the sharp decline around 1990. Otherwise, it seems to be holding fairly steady, a better look at this park could be had with a change in my methodology, and perhaps only look at visit change rate since 1990 instead of 1967 - a topic for a future blog post. Grand Teton had a big dip in the 1980s but seems to have recovered. Both Mammoth Cave and Shenandoah are definitely on the downswing. Perhaps Mammoth Cave is suffering from the same cave effect as Carlsbad Caverns? This is something worth looking into. Shenandoah's numbers are a mystery to me. It has the most negative per capita visit change rate of any of the national parks. It is close to major urban areas and is a beautiful, accessible park, so why would the visits per capita rate be going down?
+
+### Data Sources
+The list of 419 official park units (as of 5/1/2019) broken out by designation comes from the [National Park System](https://www.nps.gov/aboutus/national-park-system.htm){:target="_blank"} page at nps.gov. Park visit data from the report, "Annual Summary Report (1904 - Last Calendar Year)" found on the [NPS Stats](https://irma.nps.gov/Stats/reports/national){:target="_blank"} website. 2010-2018 U.S. population data from the [U.S. Census Bureau American Fact Finder](https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t){:target="_blank"}. 1900-2009 U.S. population data from State Intercensal Tables found on [www.census.gov](www.census.gov){:target="_blank"}.
+
+### Using the Scripts
+Instructions to run the scripts are found in the readme in the GitHub repository found [here](https://github.com/goodmorningdata/nps){:target="_blank"}.
+
+---
