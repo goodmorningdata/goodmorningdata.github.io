@@ -23,7 +23,7 @@ The plot below is a park popularity quadrant. It plots mean park visits per capi
 * The additional 2 parks in Quadrant I, popular and getting more popular, are Indiana Dunes NP and Cuyahoga Valley NP. Both of these parks are near major urban areas, which may contribute to their increasing popularity - this is worth looking into more in a future blog post.
 * Quadrant II contains the "up and comers." These parks are less popular and presumably less crowded, but their popularity is on the increase.
 * Quadrant IV contains the less popular parks whose popularity is on the decline. These are the ones to visit to avoid the crowds.
-* Interestingly, 5 of the 8 national parks in Alaska are in Quadrant II. They don't get a lot of visitors, but their popularity is on the rise.
+* Interestingly, 5 of the 8 national parks in Alaska are in Quadrant II. They don't get a lot of visitors, but their popularity is on the rise. This is also the case for Utah - 4 of the 5 national parks are in this quadrant, and the remaining, Zion, is in Quadrant I. Utah is the place to be it seems.
 
 Over the next blog posts, I will look at a few of these parks in more detail.
 
