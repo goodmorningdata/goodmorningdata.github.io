@@ -4,7 +4,8 @@ title: Which parks are the most crowded?
 date: 7-8-2019
 tags: national-park-service
 ---
-Which national parks are the most crowded?
+Which national parks are the most crowded? Certain parks seem more crowded than others, for example Zion National Park seems way more crowded than Grand Teton National Park although both are in the top 10 of number of visits per year, but can we quantify this anecdotal feeling?
+
 
 ![Line plot image]({{ site.baseurl }}/assets/06_visit_park_visits_vs_year_highest_10_national_parks.png)
 
