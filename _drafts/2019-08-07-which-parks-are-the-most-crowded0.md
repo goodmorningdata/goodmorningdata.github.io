@@ -1,9 +1,14 @@
 ---
 layout: post
-title: Which parks are the most crowded?
-date: 7-8-2019
+title: Revisiting park size
+date: 21-8-2019
 tags: national-park-service
 ---
+In the post, [How big are the national parks?](http://goodmorningdata.com/how-big-are-the-national-parks/), we took an initial look at park size. Let's now revisit that topic and get an idea of how park area is distributed among the states.
+
+There are national parks in 
+
+I took an initial look at park size in this post.
 Which national parks are the most crowded? Some parks certainly seem more crowded than others, especially at the beginning of August. For example Zion National Park feels much more crowded than Grand Teton National Park although both are in the top 10 of number of visits per year. Is there a way to quantify this anecdotal feeling?
 
 Using the data that we have available at this point, the best measure of "crowdedness" is number of visits per acre. This ratio gives us an idea of the density of humans in the park. See below for a table of all 61 national parks and the number of visits per acre for each. Gateway Arch National Park is by far the most crowded - this makes perfect sense as it is essentially a museum that occupies the smallest area of any of the national parks. Zion is also in the top 10 as expected, but parks like Yellowstone and Glacier are not, although they both have overflowing parking lots and people everywhere.

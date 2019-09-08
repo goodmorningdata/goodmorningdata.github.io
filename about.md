@@ -13,3 +13,5 @@ Code repository available on [GitHub](https://github.com/goodmorningdata/nps).
 ### Contact me
 
 [goodmorningdata@gmail.com](mailto:goodmorningdata@gmail.com)
+
+![image]({{ site.baseurl }}/assets/ace.jpg){:target="_blank"}
