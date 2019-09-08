@@ -14,6 +14,4 @@ Code repository available on [GitHub](https://github.com/goodmorningdata/nps).
 
 [goodmorningdata@gmail.com](mailto:goodmorningdata@gmail.com)
 
-![image]({{ site.baseurl }}/assets/ace.jpg){:target="_blank"}
-
-![image]<img src="/assets/ace.jpg" alt="ace" style="width:500px;height:600px;"/>
+![image]<img src="/assets/ace.jpg" alt="ace" style="width:200px;height:200px;"/>
