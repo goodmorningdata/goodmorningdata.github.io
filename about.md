@@ -12,6 +12,4 @@ Code repository available on [GitHub](https://github.com/goodmorningdata/nps).
 
 ### Contact me
 
-[goodmorningdata@gmail.com](mailto:goodmorningdata@gmail.com)
-
-![image]<img src="/assets/ace.jpg" alt="ace" style="width:200px;height:200px;"/>
+| <img src="/assets/ace.jpg" alt="ace" style="width:200px;height:200px;"/> | [goodmorningdata@gmail.com](mailto:goodmorningdata@gmail.com) |
